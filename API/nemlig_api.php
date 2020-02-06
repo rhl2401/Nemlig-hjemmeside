@@ -7,8 +7,8 @@ $json_response = [];
 $json_response["success"] = false;
 
 
-if (isset($_POST["type"])) {
-    $type = filter_var($_POST["type"], FILTER_SANITIZE_STRING);
+if (isset($_GET["type"])) {
+    $type = filter_var($_GET["type"], FILTER_SANITIZE_STRING);
 
     $sql = "SELECT * FROM nemlig_extension WHERE type = " . $type;
     $result = $conn->query($sql);
@@ -24,6 +24,6 @@ if (isset($_POST["type"])) {
         echo json_encode($json_response);
     }
 } else {
-    $json_response["msg"] = "POST type not set";
+    $json_response["msg"] = "GET type not set";
     echo json_encode($json_response);
 }
