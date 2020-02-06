@@ -4,6 +4,7 @@ include "db_conncet.php";
 
 
 $json_response = [];
+$json_response["success"] = false;
 
 
 if (isset($_POST["type"])) {
@@ -15,12 +16,14 @@ if (isset($_POST["type"])) {
     if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
-            echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+            $json_response["data"] = "id: " . $row["id"]. " - type: " . $row["type"]. " - e_p_k: " . $row["emmision_per_kg"]. "<br>";
+            $json_response["success"] = true;
         }
     } else {
-        echo "0 results";
+        $json_response["msg"] = "0 results in DB";
+        echo json_encode($json_response);
     }
 } else {
     $json_response["msg"] = "POST type not set";
-    echo json_encode($json_response;
+    echo json_encode($json_response);
 }
