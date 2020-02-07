@@ -16,7 +16,9 @@ function removeCommas(string) {
     }
 }
 
-$(document).ready(function() {
+
+// The function to do score calculation and display on page
+function doCalculation() {
     // Grab the description including type of product
     let text = $(".product-detail__attribute").text();
     console.log("Text: " + text);
@@ -77,4 +79,16 @@ $(document).ready(function() {
         // Apply color to box
         $(".extension-score-box").css("background-color", color);
     }
+}
+
+
+
+// Do calculation on page load
+$(document).ready(function() {
+    doCalculation();
+});
+
+// Do calculation when page contens changes .... unstable
+$("body").on('DOMSubtreeModified', ".product-detail__header", function() {
+    alert('changed');
 });
