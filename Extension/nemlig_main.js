@@ -90,5 +90,5 @@ $(document).ready(function() {
 
 // Do calculation when page contens changes .... unstable
 $("body").on('DOMSubtreeModified', ".product-detail__header", function() {
-    alert('changed');
+    doCalculation();
 });
