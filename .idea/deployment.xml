@@ -54,7 +54,7 @@
       <paths name="rasmuslauridsen.dk">
         <serverdata>
           <mappings>
-            <mapping deploy="nemlig" local="$PROJECT_DIR$/API" web="/" />
+            <mapping deploy="public_html" local="$PROJECT_DIR$/API" web="/" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/Extension" />
