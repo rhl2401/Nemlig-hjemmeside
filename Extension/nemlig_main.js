@@ -56,4 +56,7 @@ $(document).ready(function() {
         }
     });
 
+    if (score !== -1) {
+        $("<div class='extension-score-box'>" + score + "</div>").insertAfter(".product-detail__header");
+    }
 });

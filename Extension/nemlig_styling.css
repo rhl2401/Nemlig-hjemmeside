@@ -1,3 +1,17 @@
 .product-detail__header {
     color: #c7254e;
+    display: inline-block;
+}
+
+.extension-score-box {
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+    margin-left: 15px;
+    padding: 5px 10px;
+    font-size: 22px;
+    border-radius: 8px;
+    background-color: rgb(212, 121, 58);
+    color: #fff;
+    text-align: center;
 }
