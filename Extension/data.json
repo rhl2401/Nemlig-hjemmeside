@@ -1,0 +1,302 @@
+[
+  {
+    "type": "Okse",
+    "emission_per_kilo": 13.9,
+    "score": 6.3
+  },
+  {
+    "type": "Svine",
+    "emission_per_kilo": 4.6,
+    "score": 2.1
+  },
+  {
+    "type": "Kylling",
+    "emission_per_kilo": 5.5,
+    "score": 2.5
+  },
+  {
+    "type": "Lam",
+    "emission_per_kilo": 21.4,
+    "score": 9.7
+  },
+  {
+    "type": "Skummetmælk",
+    "emission_per_kilo": 0.9,
+    "score": 0.4
+  },
+  {
+    "type": "Minimælk",
+    "emission_per_kilo": 1,
+    "score": 0.5
+  },
+  {
+    "type": "Letmælk",
+    "emission_per_kilo": 1,
+    "score": 0.5
+  },
+  {
+    "type": "Sødmælk",
+    "emission_per_kilo": 1.2,
+    "score": 0.5
+  },
+  {
+    "type": "Yoghurt",
+    "emission_per_kilo": 1.3,
+    "score": 0.6
+  },
+  {
+    "type": "Creme fraise",
+    "emission_per_kilo": 4.1,
+    "score": 1.9
+  },
+  {
+    "type": "Pisekefløde",
+    "emission_per_kilo": 5.3,
+    "score": 2.4
+  },
+  {
+    "type": "Madfløde",
+    "emission_per_kilo": 2.5,
+    "score": 1.1
+  },
+  {
+    "type": "Brie",
+    "emission_per_kilo": 8.2,
+    "score": 3.7
+  },
+  {
+    "type": "Skæreost",
+    "emission_per_kilo": 9.6,
+    "score": 4.4
+  },
+  {
+    "type": "Skiveost",
+    "emission_per_kilo": 9.6,
+    "score": 4.4
+  },
+  {
+    "type": "Revet ost",
+    "emission_per_kilo": 9.6,
+    "score": 4.4
+  },
+  {
+    "type": "Feta",
+    "emission_per_kilo": 8,
+    "score": 3.6
+  },
+  {
+    "type": "Hytteost",
+    "emission_per_kilo": 3.5,
+    "score": 1.6
+  },
+  {
+    "type": "Friskost",
+    "emission_per_kilo": 3.5,
+    "score": 1.6
+  },
+  {
+    "type": "Is",
+    "emission_per_kilo": 2.8,
+    "score": 1.3
+  },
+  {
+    "type": "Æg",
+    "emission_per_kilo": 2,
+    "score": 0.9
+  },
+  {
+    "type": "Skrabeæg",
+    "emission_per_kilo": 2,
+    "score": 0.9
+  },
+  {
+    "type": "Økologiske Æg",
+    "emission_per_kilo": 2,
+    "score": 0.9
+  },
+  {
+    "type": "Smør",
+    "emission_per_kilo": 10.6,
+    "score": 4.8
+  },
+  {
+    "type": "Smørbart",
+    "emission_per_kilo": 7,
+    "score": 3.2
+  },
+  {
+    "type": "Margarine",
+    "emission_per_kilo": 1.6,
+    "score": 0.7
+  },
+  {
+    "type": "Rapsolie",
+    "emission_per_kilo": 1.8,
+    "score": 0.8
+  },
+  {
+    "type": "Torsk",
+    "emission_per_kilo": 3.2,
+    "score": 1.5
+  },
+  {
+    "type": "Rejer",
+    "emission_per_kilo": 10.5,
+    "score": 4.8
+  },
+  {
+    "type": "Tomat",
+    "emission_per_kilo": 0.8,
+    "score": 0.4
+  },
+  {
+    "type": "Agurk",
+    "emission_per_kilo": 0.8,
+    "score": 0.4
+  },
+  {
+    "type": "Salat",
+    "emission_per_kilo": 0.5,
+    "score": 0.2
+  },
+  {
+    "type": "Løg",
+    "emission_per_kilo": 0.4,
+    "score": 0.2
+  },
+  {
+    "type": "Rødløg",
+    "emission_per_kilo": 0.4,
+    "score": 0.2
+  },
+  {
+    "type": "Gulerod",
+    "emission_per_kilo": 0.2,
+    "score": 0.1
+  },
+  {
+    "type": "Kartoffel",
+    "emission_per_kilo": 0.2,
+    "score": 0.1
+  },
+  {
+    "type": "Hvidkål",
+    "emission_per_kilo": 0.2,
+    "score": 0.1
+  },
+  {
+    "type": "Rødkål",
+    "emission_per_kilo": 0.2,
+    "score": 0.1
+  },
+  {
+    "type": "Sojabønner",
+    "emission_per_kilo": 0.6,
+    "score": 0.3
+  },
+  {
+    "type": "Æble",
+    "emission_per_kilo": 0.2,
+    "score": 0.1
+  },
+  {
+    "type": "Pære",
+    "emission_per_kilo": 0.2,
+    "score": 0.1
+  },
+  {
+    "type": "Appelsin",
+    "emission_per_kilo": 0.6,
+    "score": 0.3
+  },
+  {
+    "type": "Banan",
+    "emission_per_kilo": 0.5,
+    "score": 0.2
+  },
+  {
+    "type": "Jordbær",
+    "emission_per_kilo": 0.9,
+    "score": 0.4
+  },
+  {
+    "type": "Rugbrød",
+    "emission_per_kilo": 0.8,
+    "score": 0.4
+  },
+  {
+    "type": "Brød",
+    "emission_per_kilo": 1,
+    "score": 0.5
+  },
+  {
+    "type": "Havregryn",
+    "emission_per_kilo": 0.8,
+    "score": 0.4
+  },
+  {
+    "type": "Hvedemel",
+    "emission_per_kilo": 1.2,
+    "score": 0.5
+  },
+  {
+    "type": "Rugmel",
+    "emission_per_kilo": 1,
+    "score": 0.5
+  },
+  {
+    "type": "Ris",
+    "emission_per_kilo": 3.3,
+    "score": 1.5
+  },
+  {
+    "type": "Pasta",
+    "emission_per_kilo": 1.2,
+    "score": 0.5
+  },
+  {
+    "type": "Kaffe",
+    "emission_per_kilo": 0.3,
+    "score": 0.1
+  },
+  {
+    "type": "Appelsinjuice",
+    "emission_per_kilo": 1.3,
+    "score": 0.6
+  },
+  {
+    "type": "Øl",
+    "emission_per_kilo": 1,
+    "score": 0.5
+  },
+  {
+    "type": "Rødvin",
+    "emission_per_kilo": 2.4,
+    "score": 1.1
+  },
+  {
+    "type": "Hvidvin",
+    "emission_per_kilo": 2.4,
+    "score": 1.1
+  },
+  {
+    "type": "Sukker",
+    "emission_per_kilo": 1,
+    "score": 0.5
+  },
+  {
+    "type": "Slik",
+    "emission_per_kilo": 2.3,
+    "score": 1
+  },
+  {
+    "type": "Chokoladeplade",
+    "emission_per_kilo": 1.5,
+    "score": 0.7
+  },
+  {
+    "type": "Chokolade, slik",
+    "emission_per_kilo": 2.5,
+    "score": 1.1
+  }
+]
