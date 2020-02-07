@@ -17,6 +17,12 @@ function removeCommas(string) {
 }
 
 
+
+// Define two regex'es (if it is animal product or not)
+let regexp = /Type \(dyr\): (.*)/;
+let regexp_2 = /Type: (.*)/;
+
+
 // The function to do score calculation and display on page
 function doCalculation() {
     // Grab the description including type of product
@@ -24,20 +30,19 @@ function doCalculation() {
     console.log("Text: " + text);
 
     // Get the "type" from the description by using regex
-    // Define two regex'es (if it is animal product or not)
-    let regexp = /Type \(dyr\): (.*)/;
     let match_1 = regexp.exec(text);
-
-    let regexp_2 = /Type: (.*)/;
     let match_2 = regexp_2.exec(text);
 
     // Variable to hold the "cleaned" type string
     let finalType = "";
 
+    console.log("Matches");
+    console.log(match_1);
+    console.log(match_2);
     // Choose the regex that returned a real output
     if (match_1 !== null) {
         finalType = removeCommas(match_1[1]);
-    } else if (match_2.length > 1) {
+    } else if (match_2 !== null) {
         finalType = removeCommas(match_2[1]);
     }
 
@@ -90,5 +95,8 @@ $(document).ready(function() {
 
 // Do calculation when page contens changes .... unstable
 $("body").on('DOMSubtreeModified', ".product-detail__header", function() {
-    doCalculation();
+    setTimeout(function(){
+        doCalculation();
+    }, 2500);
+
 });
