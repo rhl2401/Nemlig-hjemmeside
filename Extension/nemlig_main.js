@@ -56,7 +56,25 @@ $(document).ready(function() {
         }
     });
 
+    // If there is a product type matching, create score box
     if (score !== -1) {
+        // Create and inject box HTML
         $("<div class='extension-score-box'>" + score + "</div>").insertAfter(".product-detail__header");
+
+        // Determine color for box depending on score
+        let color = "";
+        if (score < 2.5) {
+            color = "#5bc939";  // Green
+        } else if (score >= 2.5 && score < 5) {
+            color = "#EBBE34";  // Yellow
+        } else if (score >= 5 && score < 7.5) {
+            color = "#D47A39";  // Orange
+        } else if (score >= 7.5) {
+            color = "#EB3A3A";  // Red
+        }
+        console.log(color);
+
+        // Apply color to box
+        $(".extension-score-box").css("background-color", color);
     }
 });
