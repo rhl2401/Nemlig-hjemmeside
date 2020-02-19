@@ -1,6 +1,6 @@
 {
   "name": "Nemlig bæredygtighed",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Se hvor bæredygtigt du handler ind på Nemlig.com",
   "permissions": [
     "activeTab",
